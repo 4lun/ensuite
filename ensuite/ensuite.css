@@ -1,0 +1,142 @@
+/* Misc Layout */
+#spareroom {
+	width: 908px !important;
+}
+.colmid2span,
+.colsinglemiddle {
+	width: 540px !important;
+}
+.listing_sfm_Local,
+.listing_sfm,
+.scribble_prompt.save_search {
+	display: none !important;
+}
+.colright > ul,
+#narrow_by_search_options > ul {
+	max-height: 200px;
+	overflow-y: auto;
+}
+.navprev li a,
+.navnext li a {
+	font-size: 12px !important;
+	display: inline-block;
+	margin-top: -5px;
+	padding: 5px 8px;
+	border-radius: 3px;
+	background: #E6F5F9;
+}
+.listing_results .listing_bold .listing_row5,
+.listing_results .listing_free .listing_row5 {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.listing_row .listing_rooms {
+	float: right;
+}
+.listing_row .listing_price,
+.listing_row .listing_extra_info.listing_bills_inc {
+	background: #1f83ff;
+	padding: 2px 4px;
+	border-radius: 3px;
+	margin-top: -2px;
+	color: #fff !important;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	font-size: 11px;
+	border: 0;
+	float: left;
+	margin-right: 5px;
+}
+.listing_row .listing_price {
+	background: #43b846;
+}
+.listing_row .listing_summary,
+.listing_row .listing_availability,
+.listing_row .listing_title,
+.listing_free .listing_location_content,
+.detaildesc,
+.midcol_innerleft,
+.midcol_innerright {
+	font-size: 12px !important;
+	line-height: 17px !important;
+}
+.listing_row .listing_location_content {
+	font-size: 12px !important;
+}
+.listing_free .listing_location_content,
+.listing_row .listing_title {
+	display: inline-block;
+	padding-bottom: 5px !important;
+}
+/*.listingage_new .listing_keypoints,
+#detail_tabs ul {
+	background-size: cover !important;
+}
+#detail_tabs ul {
+	height: 25px !important;
+}
+#detail_tabs ul li {
+	margin-right: 28px;
+	padding-top: 3px;
+}
+.listing_keypoints li {
+	width: 49% !important;
+}*/
+.listing_row .listing_summary {
+	padding-top: 5px;
+}
+.midcol_innerleft {
+	width: 305px !important;
+}
+.midcol_innerright {
+	width: 200px !important
+}
+div.photos a.img.main img,
+#additional_photo_list img {
+	width: 190px !important;
+}
+#additional_photo_list > li {
+	margin-bottom: 20px !important;
+}
+.listing_free {
+	background-color: #E6F5F9 !important;
+}
+
+
+
+/* Unsuitable */
+.ext-ensuite-unsuitable * {	text-decoration: line-through;}
+.ext-ensuite-unsuitable .listing_row { display: none !important; }
+.ext-ensuite-unsuitable .listing_row1 {
+	display: block !important;
+	-webkit-border-radius: 9px !important;
+	border-radius: 9px !important;
+}
+.ext-ensuite-unsuitable.listing_free .listing_row1 {
+	padding: 5px 10px 24px 10px;
+}
+.ext-ensuite-unsuitable .listing_newness {
+	border-radius: 9px !important;
+}
+.ext-ensuite-unsuitable {
+	border-radius: 9px;
+	opacity: 0.5;
+	overflow: hidden;
+	-webkit-filter: grayscale(1);
+}
+
+.ext-ensuite-unsuitable:after {
+	content: "Unsuitable";
+	display: block;
+	background: #777;
+	color: #fff;
+	position: absolute;
+	height: 22px;
+	padding: 6px 12px 0;
+	width: 64px;
+	top: 0;
+	right: 0;
+	text-align: right;
+	border-top-right-radius: 9px;
+	border-bottom-right-radius: 9px;
+}
