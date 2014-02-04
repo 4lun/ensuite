@@ -1,3 +1,7 @@
+/*
+	Please forgive the mess, built in a hurry
+*/
+
 /* Misc Layout */
 #spareroom {
 	width: 908px !important;
@@ -68,22 +72,12 @@
 	display: inline-block;
 	padding-bottom: 5px !important;
 }
-/*.listingage_new .listing_keypoints,
-#detail_tabs ul {
-	background-size: cover !important;
-}
-#detail_tabs ul {
-	height: 25px !important;
-}
-#detail_tabs ul li {
-	margin-right: 28px;
-	padding-top: 3px;
-}
-.listing_keypoints li {
-	width: 49% !important;
-}*/
+
 .listing_row .listing_summary {
 	padding-top: 5px;
+}
+.detail_page_tab_content_inner .col.col2.col_first {
+	width: 465px !important;
 }
 .midcol_innerleft {
 	width: 305px !important;
@@ -91,12 +85,23 @@
 .midcol_innerright {
 	width: 200px !important
 }
+div.photos {
+	width: 100% !important;
+}
+
+div.photos a.img,
+div.photos a.img.main,
 div.photos a.img.main img,
 #additional_photo_list img {
-	width: 190px !important;
+	width: auto !important;
+	max-width: 100% !important;
+	border: 0 !important;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
 }
 #additional_photo_list > li {
-	margin-bottom: 20px !important;
+	margin: 0 0 20px !important;
 }
 .listing_free {
 	background-color: #E6F5F9 !important;
@@ -104,28 +109,28 @@ div.photos a.img.main img,
 
 
 
-/* Unsuitable */
-.ext-ensuite-unsuitable * {	text-decoration: line-through;}
-.ext-ensuite-unsuitable .listing_row { display: none !important; }
-.ext-ensuite-unsuitable .listing_row1 {
+/* Unsuitable/Missed it */
+.ext-ensuite-disabled * {	text-decoration: line-through;}
+.ext-ensuite-disabled .listing_row { display: none !important; }
+.ext-ensuite-disabled .listing_row1 {
 	display: block !important;
 	-webkit-border-radius: 9px !important;
 	border-radius: 9px !important;
 }
-.ext-ensuite-unsuitable.listing_free .listing_row1 {
+.ext-ensuite-disabled.listing_free .listing_row1 {
 	padding: 5px 10px 24px 10px;
 }
-.ext-ensuite-unsuitable .listing_newness {
+.ext-ensuite-disabled .listing_newness {
 	border-radius: 9px !important;
 }
-.ext-ensuite-unsuitable {
+.ext-ensuite-disabled {
 	border-radius: 9px;
 	opacity: 0.5;
 	overflow: hidden;
 	-webkit-filter: grayscale(1);
 }
 
-.ext-ensuite-unsuitable:after {
+.ext-ensuite-disabled:after {
 	content: "Unsuitable";
 	display: block;
 	background: #777;
@@ -139,4 +144,8 @@ div.photos a.img.main img,
 	text-align: right;
 	border-top-right-radius: 9px;
 	border-bottom-right-radius: 9px;
+}
+
+.ext-ensuite-gone:after {
+	content: "Missed it";
 }

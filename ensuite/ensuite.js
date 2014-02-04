@@ -11,9 +11,13 @@
 			var target = $('.listing_context .tooltip > a, .listing_more');
 
 			target.each(function(){
-				var text = $.trim($(this).text());
+                var text        = $.trim($(this).text()),
+                    result      = $(this).closest('.listing_result');
 				if(text == "Unsuitable" || text == "Just missed it!") {
-					$(this).closest('.listing_result').addClass('ext-ensuite-unsuitable');
+					result.addClass('ext-ensuite-disabled');
+
+					if(text == "Unsuitable") result.addClass('ext-ensuite-unsuitable');
+					if(text == "Just missed it!") result.addClass('ext-ensuite-gone');
 				}
 				console.log(text);
 			});
