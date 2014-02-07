@@ -39,6 +39,7 @@
 	float: right;
 }
 .listing_row .listing_price,
+.listing_row .listing_extra_info.listing_mon_fri,
 .listing_row .listing_extra_info.listing_bills_inc {
 	background: #1f83ff;
 	padding: 2px 4px;
@@ -53,6 +54,9 @@
 }
 .listing_row .listing_price {
 	background: #43b846;
+}
+.listing_row .listing_extra_info.listing_mon_fri {
+	background: #cb0727;
 }
 .listing_row .listing_summary,
 .listing_row .listing_availability,
@@ -106,8 +110,6 @@ div.photos a.img.main img,
 .listing_free {
 	background-color: #E6F5F9 !important;
 }
-
-
 
 /* Unsuitable/Missed it */
 .ext-ensuite-disabled * {	text-decoration: line-through;}

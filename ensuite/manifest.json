@@ -2,7 +2,7 @@
   "name": "Ensuite",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Various enhancments for use on Spare Room",
+  "description": "Minor enhancements for use on spareroom.co.uk",
   "content_scripts": [
   {
     "matches": ["http://www.spareroom.co.uk/*"],
