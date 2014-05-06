@@ -10,7 +10,7 @@ Features:
 - Highlights various details on listing page
 - Expands and embeds all gallery images inline on detail page
 - Collapses listings that are marked as unsuitable or unavailable
-- Hid speedflatmating adverts in listing
+- Hides speedflatmating adverts in listing
 - Slightly wider layout
 - Adds link to saved searches to header navigation
 
