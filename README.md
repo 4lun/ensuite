@@ -15,3 +15,8 @@ Features:
 - Adds link to saved searches to header navigation
 
 ![Screenshot](http://i.imgur.com/Sin25pK.png)
+
+## Install
+Clone/download and install via "Tools > Extensions > Tick Developer Mode > Load unpackaged extension"
+
+*Not currently available on the Chrome Webstore*
